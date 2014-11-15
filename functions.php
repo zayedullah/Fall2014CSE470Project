@@ -1,10 +1,12 @@
 <?php
 
+//global variables for database connection
 $db_hostname = 'localhost';
 $db_database = 'test1';
 $db_username = 'sami';
 $db_password = '';
 
+// function for connecting to database
 function connectToDB()
 {
     global $db_database, $db_hostname, $db_password, $db_username;
@@ -20,6 +22,7 @@ function connectToDB()
     return $connection;
 }
 
+// function for printing all the rows of a database table
 function printTable($tablename)
 {
     $connection = connectToDB();
@@ -37,6 +40,9 @@ function printTable($tablename)
     {
         $result->data_seek($j);
         $row = $result->fetch_array(MYSQLI_ASSOC);
+        // if this is the first row
+        // initialize the html table and
+        // print attributes
         if($j == 0)
         {
             echo '<table border="1" style="width:100%">';
