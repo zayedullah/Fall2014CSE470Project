@@ -11,7 +11,7 @@
         <a href="index.php">Home</a>
         <a href="products.php">Products</a>
         <a href="contacts.php">Contacts</a>
-        <a href=<?php $link ?>><?php $print ?></a>
+        <a href=<?php echo $link ?>><?php echo $print ?></a>
     </nav>
     </body>
 </html>

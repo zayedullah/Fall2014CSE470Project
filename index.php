@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-<?php require_once 'idiorm.php'; ?>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Runner Group</title>
-    </head>
-    <body>
-        <?php
-        ORM::configure('mysql:host=localhost;dbname=test1');
-        ORM::configure('username', 'sami');
-        ORM::configure('password', '');
-        
-        $persons = ORM::for_table('person')->find_many();
-        
-        foreach ($persons as $person) 
+<?php 
+    session_start();
+
+    require_once 'idiorm.php';
+
+    ORM::configure('mysql:host=localhost;dbname=test1');
+    ORM::configure('username', 'sami');
+    ORM::configure('password', '');
+    
+    // The fourth link in navigation menu
+    $link = '';
+    // The text to print in user interface
+    $print = '';
+    
+    // If no one is logged in, show link for login page and text Log In
+    if(!isset($_SESSION['logged in']))
+    {
+        $link = 'login.php';
+        $print = 'Log In';
+    }
+    // If someone is logged in determine who he is
+    else
+    {
+        // If the user is a customer, show the shopping cart link
+        if(isset($_SESSION['customer']))
         {
-            echo $person->name . '<br>';
+            $link = 'shoppingcart.php';
+            $print = 'GO TO CART';
         }
-        ?>
-    </body>
-</html>
+        // If the user is a admin, show the admin panel link
+        elseif (isset ($_SESSION['admin'])) 
+        {
+            // Will implement in prototype 2
+        }
+        // If we are here the user must be a employee, show the shopping cart link
+        else 
+        {
+            // Will implement in prototype 2
+        }
+    }
+    
+    include 'view/index_template.php';
+?>
