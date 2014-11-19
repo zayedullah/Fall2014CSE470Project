@@ -1,15 +1,25 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 18-Nov-2014, 22:12:24
     Author     : Sami
 */
 
-head{
+header{
+    background-color: greenyellow;
+    border: 5px;
+    border-color: green;
+    border-style: groove;
+    border-width: 5px;
     float: top;
+    margin: 5px;
+    text-align: center;
+}
+
+nav{
+    float: left;
+}
+
+section{
+    float: left;
 }
 
 h1{
@@ -17,5 +27,19 @@ h1{
 }
 
 a{
-    
+    background-color: greenyellow;
+    border: 5px;
+    border-color: green;
+    border-style: groove;
+    border-width: 5px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
 }
+
+#exceptional{
+    background-color: white;
+    border: 0px;
+}
+
