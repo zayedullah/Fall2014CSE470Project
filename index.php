@@ -37,7 +37,7 @@
         {
             // Will implement in prototype 2
         }
-        // If we are here the user must be a employee, show the shopping cart link
+        // If we are here the user must be a employee, show the log store link
         else 
         {
             // Will implement in prototype 2
