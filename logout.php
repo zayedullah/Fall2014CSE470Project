@@ -6,7 +6,9 @@ unset($_SESSION['logged in']);
 unset($_SESSION['customer']);
 unset($_SESSION['username']);
 unset($_SESSION['password']);
+unset($_SESSION['id']);
+unset($_SESSION['cart_id']);
 
-echo 'You are successfully logged out, please go to <a href="index.php">Home</a>';
+header('Location: index.php');
 
 ?>

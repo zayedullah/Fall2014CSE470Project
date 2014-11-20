@@ -4,8 +4,8 @@
 
     require_once 'idiorm.php';
 
-    ORM::configure('mysql:host=localhost;dbname=test1');
-    ORM::configure('username', 'sami');
+    ORM::configure('mysql:host=localhost;dbname=runner');
+    ORM::configure('username', 'root');
     ORM::configure('password', '');
     
     // The fourth link in navigation menu
@@ -30,7 +30,7 @@
             $link = 'shoppingcart.php';
             $print = 'Go To Cart';
             $logout = 'Logout';
-            $id = '';
+            $id = 'class="button"';
         }
         // If the user is a admin, show the admin panel link
         elseif (isset ($_SESSION['admin'])) 
