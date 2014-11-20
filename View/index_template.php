@@ -16,9 +16,9 @@
         <a href='logout.php' <?php echo $id ?>><?php echo $logout ?></a>
     </nav>
         <br>
-        <section class="centered">
+        <section class="balloon">
             <h1>Runner Automobile</h1>
-            <img src="view/4.jpg" width="950" height="300" class="image">
+            <img src="view/homepage.jpg" width="950" height="300">
             <h1>A SHORT BRIEF ON RUNNER AUTOMOBILES LTD</h1>
             <p>Runner Automobiles Limited (RAL), the flagship company of Runner Group manufacturing motorcycles, 
                started its journey in the year 2000. The organization has over 700 employees. In the past 10 years, 

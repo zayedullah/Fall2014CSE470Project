@@ -4,9 +4,9 @@
         <link rel="stylesheet" href="view/style1.css">
     </head>
     <body>
-    <head>
+    <header>
     <h1>Runner Automobile</h1>
-    </head>
+    </header>
     <nav>
         <a href="index.php" class="button">Home</a>
         <a href="products.php" class="button">Products</a>
