@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Products</title>
+        <title>Shopping Cart</title>
         <link rel="stylesheet" href="view/style1.css">
     </head>
     <body>
@@ -13,6 +13,7 @@
         <a href="contacts.php" class="button">Contacts</a>
     </nav>
     <br>
+    <?php if(!$empty) { ?>
     <?php foreach ($products as $product) { ?>
     <section>
         <img src='<?php echo 'view/' . $product->product_id . '.jpg'; ?>' width="250" height="250">
@@ -22,10 +23,11 @@
             <?php echo '<h3>Model Number: ' . $product->model_no . '</h3>'; ?>
             <?php echo '<h3>Price: ' . $product->price . '</h3>'; ?>
             <input type="hidden" name="product_id" value=<?php echo $product->product_id; ?>>
-            <input type="submit" value="Add to cart">
         </form>
     </section>
     <br>
     <?php } ?>
+    <?php } ?>
+    <?php echo $msg; ?>
     </body>
 </html>
