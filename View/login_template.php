@@ -7,11 +7,12 @@
     <head>
     <h1>Runner Automobile</h1>
     </head>
-    <nav>
-        <a href="index.php">Home</a>
-        <a href="products.php">Products</a>
-        <a href="contacts.php">Contacts</a>
+    <nav id="sidebar">
+        <a href="index.php" class="button">Home</a>
+        <a href="products.php" class="button">Products</a>
+        <a href="contacts.php" class="button">Contacts</a>
     </nav>
+    <br>
     <section>
         <form method="post" action="login.php">
             Username
