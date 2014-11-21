@@ -10,6 +10,12 @@ ORM::configure('password', '');
 
 $products = ORM::for_table('product')->find_many();
 
+function getColor($id)
+{
+    $c = ORM::for_table('color')->where('product_id', $id)->find_one();
+    return $c->color;
+}
+
 include 'view/product_template.php';
 
 ?>

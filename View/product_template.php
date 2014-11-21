@@ -21,6 +21,7 @@
             <?php echo '<h3>Brand Name: ' . $product->brand_name . '</h3>'; ?>
             <?php echo '<h3>Model Number: ' . $product->model_no . '</h3>'; ?>
             <?php echo '<h3>Price: ' . $product->price . '</h3>'; ?>
+            <?php echo '<h3>Color: ' . getColor($product->product_id) . '</h3>'; ?>
             <input type="hidden" name="product_id" value=<?php echo $product->product_id; ?>>
             <input type="submit" value="Add to cart">
         </form>
