@@ -25,6 +25,7 @@ if(isset($_SESSION['logged in']))
     }
     
     $empty = FALSE;
+    $count = ORM::for_table('contains')->where('cart_id', $_SESSION['cart_id'])->count();
     
     if(empty($products))
     {

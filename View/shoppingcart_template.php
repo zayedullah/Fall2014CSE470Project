@@ -28,6 +28,7 @@
     <br>
     <?php } ?>
     <?php } ?>
+    <h3>Total Item Count is <?php echo $count; ?></h3> 
     <?php echo $msg; ?>
     </body>
 </html>
