@@ -7,20 +7,27 @@
     <header>
     <h1>Runner Automobile</h1>
     <form method="post" action="products.php">
-        Search by color:
+        Search by color: 
         <input type="search" name="by_color">
+        <br><br>
+        <input type="submit" name="color_s" value="Search By Color">
         <br>
-        <input type="submit" value="Search">
-        <br>
-        Search by brand name:
+        Search by brand name: 
         <input type="search" name="by_brand_name">
+        <br><br>
+        <input type="submit" name="brand_s" value="Search By Brand">
         <br>
-        <input type="submit" value="Search">
-        <br>
-        Search by model no:
+        Search by model no: 
         <input type="search" name="by_model_no">
+        <br><br>
+        <input type="submit" name="model_s" value="Search By Model">
         <br>
-        <input type="submit" value="Search">
+        Min price: 
+        <input type="search" name="min_price">
+        Max price: 
+        <input type="search" name="max_price">
+        <br><br>
+        <input type="submit" name="price_s" value="Search By Price Range">
     </form>
     <br>
     </header>
