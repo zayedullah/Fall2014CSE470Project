@@ -6,6 +6,23 @@
     <body>
     <header>
     <h1>Runner Automobile</h1>
+    <form method="post" action="products.php">
+        Search by color:
+        <input type="search" name="by_color">
+        <br>
+        <input type="submit" value="Search">
+        <br>
+        Search by brand name:
+        <input type="search" name="by_brand_name">
+        <br>
+        <input type="submit" value="Search">
+        <br>
+        Search by model no:
+        <input type="search" name="by_model_no">
+        <br>
+        <input type="submit" value="Search">
+    </form>
+    <br>
     </header>
     <nav>
         <a href="index.php" class="button">Home</a>
