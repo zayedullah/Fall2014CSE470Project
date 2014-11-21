@@ -26,6 +26,39 @@
                technology and equipment. Till now, the company's production capacity has reached 500 motorcycles per day. 
                RAL's products cover 4 series of motorcycles ranging from 50 cc to 150 cc, and about 12 models of motorcycles.
             </p>
+            <p>
+                It is to be mentioned here that to create industry friendly environment, 
+                Runner Group is not only engaged in making the gradual development to become 
+                a complete motorcycle manufacturer, but also providing technical support, incentives 
+                and whole hearted co-operation to the progressive, small & medium entrepreneurs to build 
+                factory for spare parts and accessories of motorcycles. Spare parts like motorcycle seat, 
+                different cables like: break cable, clutch cable etc., wiring harness, tyre, tube, battery, 
+                plastic components (side cover, indicator light, head light, fender) and many other parts 
+                and accessories are being utilized in runner motorcycles of different models. All those 
+                entrepreneurs are financially benefitted and employment opportunities for good no of people are created. 
+            </p>
+            <p>
+                By earning good reputation, RAL has captured the domestic market as an avant-garde in this horizon. 
+                At present RAL has more than 200 dealers and over 400 sales centers run by trained dealer staff. 
+                RAL is selling the highest quantity of motorcycles in the domestic market as a manufacturer. 
+                RAL is also the market leader as regards to 80 CC motorcycle. 
+            </p>
+            <p>
+            <h2>Vision:</h2>
+                To become the leading motorcycle manufacturer of the country with renewed focus on expanding Company's 
+                footprint in the global arena.
+            </p>
+            <p>
+            <h2>Mission:</h2>
+                To manufacture motorcycle based on customers' requirements and ambition, maintaining standard in style, 
+                technology and excellence, and to provide fulfillment and prosperity for employees, dealers and other stake holders.
+            </p>
+            <p>
+            <h2>Strategy:</h2>
+                To build a strong product range across categories, explore expansion opportunity globally, 
+                continuously improve its operational effectiveness, aggressively expand its access to customers a
+                nd continue to invest in brand building activities.
+            </p>
         </section>
     </body>
 </html>
