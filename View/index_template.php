@@ -14,7 +14,7 @@
         <a href="contacts.php" class="button">Contacts</a>
         <a href=<?php echo $link ?> class="button"><?php echo $print ?></a>
         <a href='logout.php' <?php echo $id ?>><?php echo $logout ?></a>
-    </nav>
+        </nav>
         <br>
         <section class="balloon">
             <h1>Runner Automobile</h1>
