@@ -42,10 +42,12 @@
         <img src='<?php echo 'view/' . $product->product_id . '.jpg'; ?>' width="250" height="250">
         <h2>Details</h2>
         <form method="post" action="addtocart.php">
-            <?php echo '<h3>Brand Name: ' . $product->brand_name . '</h3>'; ?>
-            <?php echo '<h3>Model Number: ' . $product->model_no . '</h3>'; ?>
-            <?php echo '<h3>Price: ' . $product->price . '</h3>'; ?>
-            <?php echo '<h3>Color: ' . getColor($product->product_id) . '</h3>'; ?>
+            <table class="button">
+                <tr><td><?php echo '<h3>Brand Name: ' . $product->brand_name . '</h3>'; ?></td></tr>
+                <tr><td><?php echo '<h3>Model Number: ' . $product->model_no . '</h3>'; ?></td></tr>
+                <tr><td><?php echo '<h3>Price: ' . $product->price . '</h3>'; ?></td></tr>
+                <tr><td><?php echo '<h3>Color: ' . getColor($product->product_id) . '</h3>'; ?></td></tr>
+            </table>
             <input type="hidden" name="product_id" value=<?php echo $product->product_id; ?>>
             <input type="submit" value="Add to cart">
         </form>
