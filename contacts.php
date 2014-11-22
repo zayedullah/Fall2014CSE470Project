@@ -2,7 +2,7 @@
     
     <head>  
         <title>Runner Group of Companies</title>
-        <link rel="stylesheet" href="view/style1.css">
+        <link rel="stylesheet" href="view/style3.css">
     </head>
 
     <body>
