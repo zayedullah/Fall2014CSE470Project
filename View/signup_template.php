@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Sign Up</title>
+        <script src="view/validate_form.js"></script>
         <link rel="stylesheet" href="view/style3.css">
     </head>
     <body>
@@ -14,7 +15,7 @@
     </nav>
     <br>
     <section>
-        <form method="post" action="signup.php">
+        <form method="post" action="signup.php" onsubmit="return validate(this)">
             Name
             <input type="text" name="name">
             <br>
