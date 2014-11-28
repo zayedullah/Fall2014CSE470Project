@@ -2,12 +2,22 @@
     <head>
         <title>Runner Automobile Ltd</title>
         <link rel="stylesheet" href="view/style3.css">
+        <link href="view/js-image-slider.css" rel="stylesheet" type="text/css" />
+        <script src="view/js-image-slider.js" type="text/javascript"></script>
     </head>
     <body>
         <header>
-            <img src="view/runner_logo.jpg" id="logo">
-            
+            <section class="balloon">
+                <img src="view/runner_logo.jpg"/>
+                <div id="slider">
+                    <img src="view/slider1.jpg" />
+                    <img src="view/slider2.jpg" />
+                    <img src="view/slider3.jpg" />
+                    <img src="view/slider4.jpg" />
+                </div>
+            </section>
         </header>
+        <br>
         <nav id="sidebar">
         <a href="index.php" class="button">Home</a>
         <a href="products.php" class="button">Products</a>
@@ -18,7 +28,6 @@
         <br>
         <section class="balloon">
             <h1>Runner Automobile</h1>
-            <img src="view/homepage.jpg" width="950" height="300">
             <h1>A SHORT BRIEF ON RUNNER AUTOMOBILES LTD</h1>
             <p>Runner Automobiles Limited (RAL), the flagship company of Runner Group manufacturing motorcycles, 
                started its journey in the year 2000. The organization has over 700 employees. In the past 10 years, 
